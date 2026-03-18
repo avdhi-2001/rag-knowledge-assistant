@@ -8,7 +8,7 @@ Built with Python, LangChain, OpenAI, FAISS, and Streamlit.
 
 ## What it does
 
-- Ingests **4 source types** — YouTube transcripts, PDFs, plain text/markdown, and live websites
+- Ingests **4 source types** - YouTube transcripts, PDFs, plain text/markdown, and live websites
 - Chunks and indexes documents using `text-embedding-3-small` with 900-token chunks and 180-token overlap into a local FAISS vector store that persists between sessions
 - Retrieves with **MMR** (Maximum Marginal Relevance) — so you get diverse results instead of five chunks from the same paragraph
 - Returns **structured answers** every time — grounded answer, key points, confidence level, follow-up questions, and source citations like `[S1]`, `[S2]`
@@ -16,6 +16,12 @@ Built with Python, LangChain, OpenAI, FAISS, and Streamlit.
 - Supports **conversational follow-ups** via a sliding window memory (last 10 turns) — token cost stays flat regardless of session length
 
 ---
+
+## Screenshots
+
+![Answer with key points and citations](screenshots/demo1.png)
+![Confidence badge and query metrics](screenshots/demo2.png)
+![Session stats and multi-source citations](screenshots/demo3.png)
 
 ## Tech stack
 
