@@ -1,6 +1,6 @@
 # RAG Knowledge Assistant
 
-A personal knowledge base you can actually talk to. Point it at YouTube videos, PDFs, websites, or text files — it ingests everything, builds a searchable index, and answers questions with grounded, cited responses.
+A personal knowledge base you can actually talk to. Point it at YouTube videos, PDFs, websites, or text files - it ingests everything, builds a searchable index, and answers questions with grounded, cited responses.
 
 Built with Python, LangChain, OpenAI, FAISS, and Streamlit.
 
