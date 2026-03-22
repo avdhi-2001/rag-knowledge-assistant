@@ -145,9 +145,3 @@ python -m pytest tests/ -v
 ```
 
 13 unit tests covering `extract_youtube_video_id` — standard URLs, short URLs, Shorts links, embed links, plain IDs, and edge cases.
-
----
-
-## Skills demonstrated
-
-`Python` · `LangChain` · `RAG` · `OpenAI API` · `FAISS` · `Streamlit` · `Prompt Engineering` · `Embeddings` · `Vector Search` · `MMR Retrieval` · `Structured Outputs` · `Pydantic` · `Document Ingestion` · `Source Attribution` · `Modular App Design`
